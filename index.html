@@ -1,0 +1,68 @@
+<html lang="en" dir="ltr">
+  <head>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <h1>Form of Fun</h1>
+    <form action="" method="POST">
+      <div class= "ques">
+        <label for="text">Type whatever you want here (uncensored):</label>
+        <input type="text" name="text">
+        <br>
+      </div> 
+
+      <div class= "ques">
+        <label for="num">What's your lucky number?</label>
+        <input type="number" name="num">
+        <br>
+      </div>
+        
+        <div class= "ques">
+          <label for="slider">What's your energy level right now?</label>
+          <br>
+          <span>Tired</span>
+          <input type="range" name="slider" value="3" min="1" max="5">
+          <span>Energetic</span>
+        </div>
+    
+        <div class= "ques">
+          <label for="boxes">When it's happy hour, I'll have a ...</label>
+          <br>
+          <input type="checkbox" name="boxes" value="first">
+          <label for="first">Beer</label>
+          <input type="checkbox" name="boxes"  value="second">
+          <label for="second">Mixed Drink</label>
+          <input type="checkbox" name="boxes" value="third">
+          <label for="third">Wine</label>
+          <input type="checkbox" name="boxes" value="fourth">
+          <label for="fourth">None</label>
+          <br>
+
+        </div>
+
+        <div class= "ques">
+          <label for="radio">Coffee & coding are a perfect combo! </label>
+          <br>
+          <input type="radio" name="radio" value="true">
+          <label for="true">TRUE</label>
+          <input type="radio" name="radio" value="false">
+          <label for="false">FALSE</label>
+          <br>
+        </div>
+      
+        <div class= "ques">
+          <label for="dropdown">I enjoy completing forms online</label>
+          <select name="dropdown">
+            <option value="first">Yes</option>
+            <option value="second">No</option>
+            <option value="third">Hell No</option>
+          </select>
+        </div>
+        <button class = "submit">
+          <input type="submit" value="Submit to Reset">
+        </button>
+          
+      </form>
+      <script src="https://unpkg.com/formik/dist/formik.umd.production.min.js"></script>
+  </body>
+</html>

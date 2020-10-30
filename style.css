@@ -1,0 +1,41 @@
+*{
+    justify-content:  center;
+    align-content: center;
+    margin: auto;
+    width: auto;
+    text-align: center;
+}
+body {
+    background-color: pink;
+    justify-items: center;
+    align-items: center;
+    font-size: 24px;
+    font-family: Victor Mono;
+    font-weight: 200;
+}
+h1 {
+    color: navy;
+    font-family: Futura; 
+    font-size: 50x;
+    letter-spacing: 7px;
+    text-transform: uppercase;
+    padding: 20px;
+
+
+}
+
+.ques {
+    padding: 20px;
+    border-style: dotted;  
+    border-color: navy;
+}
+
+.submit{
+    justify-content: center;
+    padding: 20px;
+    margin: 20px;
+    font-size: 30px;
+}
+
+
+
